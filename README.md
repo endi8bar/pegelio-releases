@@ -4,6 +4,26 @@
 
 Pegelio is currently under active development and available as an early alpha release.
 
+## Screenshots
+
+### Audio control
+
+Switch output devices, control application volume and route individual applications to different audio devices.
+
+![Pegelio main audio control](screenshots/pegelio-main-dark.png)
+
+### Quick access
+
+Control master volume and active applications directly from the compact top bar.
+
+![Pegelio quick access bar](screenshots/pegelio-quick-access.png)
+
+### Application management
+
+Manage known applications, favorites, visibility and custom application settings.
+
+![Pegelio application settings](screenshots/pegelio-application-settings-light.png)
+
 ## What Pegelio does
 
 * Switch the Windows default audio output device
