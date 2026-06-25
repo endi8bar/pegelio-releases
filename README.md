@@ -43,7 +43,7 @@ The latest test version is available from the GitHub Releases section of this re
 
 Current version:
 
-`0.7.0-alpha.1`
+`0.7.0-alpha.1` https://github.com/endi8bar/pegelio-releases/releases/tag/v0.7.0-alpha.1
 
 ## System requirements
 
