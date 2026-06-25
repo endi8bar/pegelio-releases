@@ -1,0 +1,97 @@
+name: Bug report
+description: Report a reproducible problem in Pegelio
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing Pegelio.
+
+        Please do not include passwords, account information, private filenames or other sensitive data.
+
+  - type: input
+    id: version
+    attributes:
+      label: Pegelio version
+      description: The version shown in Pegelio or on the downloaded release.
+      placeholder: 0.7.0-alpha.1
+    validations:
+      required: true
+
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+
+  - type: input
+    id: display
+    attributes:
+      label: Display configuration
+      description: Resolution, scaling and number of monitors.
+      placeholder: 2560x1440, 125%, two monitors
+    validations:
+      required: false
+
+  - type: textarea
+    id: audio-devices
+    attributes:
+      label: Audio devices involved
+      description: List the playback or recording devices involved.
+      placeholder: |
+        Arctis GameBuds
+        Realtek Speakers
+        USB microphone
+    validations:
+      required: false
+
+  - type: input
+    id: application
+    attributes:
+      label: Application involved
+      description: Leave empty if the problem is not related to a specific application.
+      placeholder: Firefox, Spotify, Discord
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Pegelio
+        2. Select ...
+        3. Change ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics or screenshots
+      description: Attach a Pegelio diagnostic package, screenshot or relevant log excerpt if available. Remove sensitive information before uploading.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am using the current Pegelio alpha release.
+          required: true
+        - label: I checked that this issue has not already been reported.
+          required: true

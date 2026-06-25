@@ -78,7 +78,7 @@ Feedback is especially useful for:
 * Startup and auto-reveal behavior
 * Crashes or disappearing settings
 
-For technical issues, use the Issues section of this repository.
+Use the GitHub Issues section to submit a structured bug report or general feedback.
 
 When reporting a problem, include:
 

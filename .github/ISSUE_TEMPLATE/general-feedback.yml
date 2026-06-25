@@ -1,0 +1,76 @@
+name: General feedback
+description: Share usability feedback, suggestions or your overall experience
+title: "[Feedback] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing Pegelio.
+
+        Direct and critical feedback is welcome.
+
+  - type: input
+    id: version
+    attributes:
+      label: Pegelio version
+      placeholder: 0.7.0-alpha.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: experience
+    attributes:
+      label: Overall experience
+      options:
+        - Very good
+        - Good
+        - Mixed
+        - Poor
+        - Could not use the application
+    validations:
+      required: true
+
+  - type: textarea
+    id: useful
+    attributes:
+      label: What worked well?
+    validations:
+      required: false
+
+  - type: textarea
+    id: difficult
+    attributes:
+      label: What was confusing or difficult?
+    validations:
+      required: false
+
+  - type: textarea
+    id: missing
+    attributes:
+      label: What is missing?
+      description: Mention features or improvements that would make Pegelio more useful to you.
+    validations:
+      required: false
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your audio setup
+      description: Optional information about your audio devices, display scaling or monitor setup.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: continue
+    attributes:
+      label: Would you continue using Pegelio?
+      options:
+        - Yes
+        - Probably
+        - Unsure
+        - Probably not
+        - No
+    validations:
+      required: true
