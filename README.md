@@ -10,7 +10,7 @@ Pegelio is currently under active development and available as an early alpha re
 
 Switch output devices, control application volume and route individual applications to different audio devices.
 
-![Pegelio main audio control](screenshots/pegelio-main-dark.png)
+![Pegelio main audio control](screenshots/Pegelio_main_ dark_2.png)
 
 ### Quick access
 
